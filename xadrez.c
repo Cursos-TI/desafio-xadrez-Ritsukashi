@@ -40,6 +40,6 @@ int main(){
     } while (e <= 8); // vai se fazer uma contagem de quantas casas a rainha vai andar
     printf("A rainha se moveu 8 casas para a esquerda\n");
     // com o número já determinado, ele fala quantas casas foram andadas
-    
+
     return 0;
 }
