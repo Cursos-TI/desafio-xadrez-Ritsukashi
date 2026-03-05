@@ -8,6 +8,7 @@
 int main(){
     int d = 1;
     int e = 1;
+    int m = 1;
 
     //-- TORRE --
 
@@ -38,7 +39,19 @@ int main(){
         printf("Esquerda\n");
         e++;
     } while (e <= 8); // vai se fazer uma contagem de quantas casas a rainha vai andar
-    printf("A rainha se moveu 8 casas para a esquerda\n");
+    printf("A rainha se moveu 8 casas para a esquerda\n\n");
+    // com o número já determinado, ele fala quantas casas foram andadas
+
+    //-- CAVALO --
+
+    while (m--)
+    {   // for pra definir quantas casas ele vai andar
+        for(int i = 0; i <= 1; i++){
+            printf("Baixo\n"); // vai imprimir a casa pra baixo duas vezes
+        }
+        printf("Esquerda\n"); // vai imprimir a casa pra esquerda uma vez
+    }
+    printf("O cavalo se moveu 2 casas para baixo e 1 para a esquerda\n\n");
     // com o número já determinado, ele fala quantas casas foram andadas
 
     return 0;
